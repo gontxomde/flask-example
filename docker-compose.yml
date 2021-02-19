@@ -1,0 +1,7 @@
+version: "3.9"
+
+services:
+  web:
+    image: "flask-prueba:latest"
+    ports:
+      - "5050:5000"
